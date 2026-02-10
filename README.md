@@ -12,7 +12,7 @@ This repository provides a pipeline to create NLQ-like synthetic supervision fro
    - Output: a DB containing candidate windows + duration buckets + template metadata.
    - Note: supports `--geom_only` for geometry-only runs.
 
-2) **(Optional) Add density scores**
+2) ** Add density scores**
    - Script: `update_density_db.py`
    - Output: updated DB with density scores for sampling.
 
@@ -31,7 +31,7 @@ This repository provides a pipeline to create NLQ-like synthetic supervision fro
    - Produces: duration ECDF/hist, qs_rel/qe_rel distributions, relative coverage ECDF + KS.
 
 ### Figures
-See `assets/` for plots comparing train vs generated:
+See `pretrain_catalog/` for plots comparing train vs generated:
 - Template distribution
 - Duration distribution + ECDF
 - qs_rel / qe_rel per bucket
