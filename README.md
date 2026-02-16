@@ -1,3 +1,6 @@
+## EDA and SOTA benchmark on EGO4D
+`Copia di Ego4D_NLQ_Benchmark.ipynb`: exploratory data analysis and model evaluation on benchmarks.
+
 ## Synthetic NLQ augmentation (narrations → NLQ-like queries)
 
 This repository provides a pipeline to create NLQ-like synthetic supervision from Ego4D narrations.
